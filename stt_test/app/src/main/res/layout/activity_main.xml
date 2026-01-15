@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="음성 인식 대기 중..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="'살려주세요'라고 말해보세요"
+        android:textSize="16sp"
+        android:textColor="#666666"/>
+
+    <Button
+        android:id="@+id/btnStartListening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="🎤 눌러서 말하기 (Start STT)"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"/>
+
+</LinearLayout>
